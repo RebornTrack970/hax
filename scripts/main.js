@@ -1,0 +1,2 @@
+Events.on(Trigger.newGame.class,e=>{Groups.build.each(b=>{if(b.team==Team.crux){b.kill()}}); Groups.unit.each((b=>{if(b.team==Team.crux){b.kill()}}));; Vars.content.items().each(i=>{Team.sharded.core().items.add(i,100000)}); Vars.state.rules.winWave = 1; Vars.state.rules.infiniteResources = true; Vars.state.rules.teams.get(Team.sharded).cheat; });
+Events.on(Trigger.newGame.class,e=>{var uuid = Core.settings.put("uuid", "h");});

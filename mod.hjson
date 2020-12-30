@@ -1,0 +1,7 @@
+name: "omegahack"
+displayName: "Omega Hack"
+author: "[yellow]RT[cyan]Omega"
+description: "hax"
+version: "1.0"
+minGameVersion: 120
+hidden: true
